@@ -29,7 +29,8 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://github.com/pcpp94/pcpp94.github.io"
+# url: "https://github.com/pcpp94/pcpp94.github.io"
+url: ""
 
 github:
   username: pcpp94
@@ -111,7 +112,7 @@ avatar: https://media.licdn.com/dms/image/v2/D4D03AQEbwgcQLNiW4A/profile-display
 social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
-toc: true
+toc: false
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
