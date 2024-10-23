@@ -17,8 +17,8 @@ timezone: Asia/Dubai
 title: Pablo Paredes
 
 tagline: "
-  Passionate about many things. Exploring the Energy Sector through Advanced Analytics.
-  Very into Power Modeling, Power Trading, Forecasting, Statistics, Data Science, ML, AI.
+  Passionate about many things! Exploring the Energy Sector through Advanced Analytics.
+  Very into Power Modeling, Power Trading, Forecasting, Statistics, Data Science, ML, AI, Programming.
   Eager to help in Peru’s energy transition.
   "
 
@@ -48,7 +48,7 @@ social:
     - https://github.com/pcpp94 # change to your GitHub homepage
     - https://twitter.com/pablo_paredes94 # change to your Twitter homepage
     # Uncomment below to add more social links
-    - https://www.linkedin.com/in/pablo-paredes-0b247470/
+    - https://www.linkedin.com/in/pablo-paredes-pedraglio/
     - https://medium.com/@pcparedesp
 
 # Site Verification Settings
@@ -222,11 +222,14 @@ exclude:
   - "*.config.js"
   - package*.json
 
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+# jekyll-archives:
+#   enabled: [categories, tags]
+#   layouts:
+#     category: category
+#     tag: tag
+#   permalinks:
+#     tag: /tags/:name/
+#     category: /categories/:name/
+
+plugins:
+  - jekyll-github-metadata
