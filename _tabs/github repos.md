@@ -4,7 +4,7 @@ icon: fa-brands fa-github
 order: 2
 ---
 
-## Only showing public repositories
+### Only showing public repositories
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for repo in site.github.public_repositories %}
